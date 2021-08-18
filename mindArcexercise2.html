@@ -92,7 +92,6 @@
        appendData = (data) => {
             var accordionButton = document.getElementsByClassName('accordion-button');
             var accordionBody = document.getElementsByClassName('accordion-body'); 
-            //for(i = 0; i <=accordionButton.length; i++){
             for(i =0; i < data.length; i++) {
                accordionBody[i].innerHTML = data[i].content;
                accordionButton[i].innerHTML = data[i].title;
