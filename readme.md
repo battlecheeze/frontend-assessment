@@ -1,8 +1,8 @@
 Done working on exercise 1 and exercise 2.
 
-Exercise 1 can be viewed as mindArcExercise1.html
+Exercise 1 can be viewed as mindArcexercise1.html
 
-Exercise 2 can be viewed in mindArcExercise2.html
+Exercise 2 can be viewed in mindArcexercise2.html
 
 Bonus question:
 
