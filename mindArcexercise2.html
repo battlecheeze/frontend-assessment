@@ -89,19 +89,16 @@
          .then(data => {
                   return appendData(data); 
                })
-         .catch(err => console.log('error' + err));
        appendData = (data) => {
             var accordionButton = document.getElementsByClassName('accordion-button');
-            console.log(accordionButton.length);
             var accordionBody = document.getElementsByClassName('accordion-body'); 
-            for(i = 0; i <=accordionButton.length; i++){
+            //for(i = 0; i <=accordionButton.length; i++){
+            for(i =0; i < data.length; i++) {
                accordionBody[i].innerHTML = data[i].content;
                accordionButton[i].innerHTML = data[i].title;
              }
-
          };
     </script>
 
   </body>
 </html>
-
