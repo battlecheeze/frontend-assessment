@@ -8,5 +8,5 @@ Bonus question:
 
 Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
 
-Because "empty space + 'a'" is equals to NaN so the output should be baNaNa.
+Because "empty space + 'a'" is equals to NaN so the output will be baNaNa.
 
